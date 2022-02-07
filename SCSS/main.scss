@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+//VARIABLES
+@import './Variables/colores';
+@import './Variables/tamaño';
+@import './Variables/mixin';
+
+//SECCIONES
+@import './Secciones/headerIndex';
+@import './Secciones/cards';
+@import './Secciones/mainIndex';
+@import './Secciones/footerIndex';

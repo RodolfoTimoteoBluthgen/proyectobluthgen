@@ -1,0 +1,14 @@
+//Index
+
+.carta1{
+    background-color: $celeste;
+    div{
+        @include contenedor;
+    }
+}
+.carta2{
+    background-color: $azulsuave;
+    div{
+        @include contenedor;
+    }
+}

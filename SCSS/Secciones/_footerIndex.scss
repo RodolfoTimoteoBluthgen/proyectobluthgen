@@ -1,0 +1,26 @@
+
+.pieRedes{
+    ul{display: flex;
+        justify-content: center;
+        li{
+            text-decoration: none;
+            list-style-type: none;
+            padding: 20px;
+
+
+            a{
+                color: black;
+                size: 30px;
+                :hover{
+                    transform: scale(2);
+                    transition-property: all;
+                    transition-duration: 2s;
+                }
+            }
+
+
+        }
+         
+    }
+
+}
