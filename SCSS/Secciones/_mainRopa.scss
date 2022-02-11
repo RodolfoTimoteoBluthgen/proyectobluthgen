@@ -1,0 +1,15 @@
+
+.cartasRopa{
+   display: flex;
+   justify-content: center;
+   display: inline-block;
+    
+    .card{
+        display: inline-block;
+        justify-content: center;
+        @include contenedor;
+        background-color: $oscuro;
+        padding: 10px;
+        margin: 10px;
+    }
+}

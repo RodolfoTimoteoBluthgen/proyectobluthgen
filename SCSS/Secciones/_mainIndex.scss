@@ -1,0 +1,11 @@
+
+.tituloIndex{
+    h1{
+        @include contenedor;
+        padding: 10px;
+        margin: 20px;
+        font-size: large;
+        border: black solid 1px;
+    }
+
+}

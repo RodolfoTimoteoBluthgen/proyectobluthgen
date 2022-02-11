@@ -30,6 +30,17 @@
     background-color: #e6beaeff;
     font-family: Copperplate; }
 
+.tituloIndex h1 {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #e6beaeff;
+  font-family: Copperplate;
+  padding: 10px;
+  margin: 20px;
+  font-size: large;
+  border: black solid 1px; }
+
 .pieRedes {
   background-color: #b2967dff; }
   .pieRedes ul {
@@ -46,3 +57,19 @@
           transform: scale(2);
           transition-property: all;
           transition-duration: 2s; }
+
+.cartasRopa {
+  display: flex;
+  justify-content: center;
+  display: inline-block; }
+  .cartasRopa .card {
+    display: inline-block;
+    justify-content: center;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #e6beaeff;
+    font-family: Copperplate;
+    background-color: #b2967dff;
+    padding: 10px;
+    margin: 10px; }
