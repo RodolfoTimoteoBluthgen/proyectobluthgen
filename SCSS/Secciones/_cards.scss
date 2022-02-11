@@ -1,13 +1,13 @@
 //Index
 
 .carta1{
-    background-color: $celeste;
+    background-color: $arena;
     div{
         @include contenedor;
     }
 }
 .carta2{
-    background-color: $azulsuave;
+    background-color: $arena;
     div{
         @include contenedor;
     }

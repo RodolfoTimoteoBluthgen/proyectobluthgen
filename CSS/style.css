@@ -5,40 +5,44 @@
 
 /* CSS HEX */
 .navbarIndex {
-  background-color: #64dfdfff;
+  background-color: #ecf8f8ff;
   font-family: Copperplate;
   font-weight: 400; }
 
 .body {
-  background-color: #56cfe1ff; }
+  background-color: #e7d8c9ff; }
 
 .carta1 {
-  background-color: #48bfe3ff; }
+  background-color: #e7d8c9ff; }
   .carta1 div {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #80ffdbff; }
+    background-color: #e6beaeff;
+    font-family: Copperplate; }
 
 .carta2 {
-  background-color: #4ea8deff; }
+  background-color: #e7d8c9ff; }
   .carta2 div {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #80ffdbff; }
+    background-color: #e6beaeff;
+    font-family: Copperplate; }
 
-.pieRedes ul {
-  display: flex;
-  justify-content: center; }
-  .pieRedes ul li {
-    text-decoration: none;
-    list-style-type: none;
-    padding: 20px; }
-    .pieRedes ul li a {
-      color: black;
-      size: 30px; }
-      .pieRedes ul li a :hover {
-        transform: scale(2);
-        transition-property: all;
-        transition-duration: 2s; }
+.pieRedes {
+  background-color: #b2967dff; }
+  .pieRedes ul {
+    display: flex;
+    justify-content: center; }
+    .pieRedes ul li {
+      text-decoration: none;
+      list-style-type: none;
+      padding: 20px; }
+      .pieRedes ul li a {
+        color: black;
+        size: 30px; }
+        .pieRedes ul li a :hover {
+          transform: scale(2);
+          transition-property: all;
+          transition-duration: 2s; }
