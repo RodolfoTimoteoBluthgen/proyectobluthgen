@@ -1,15 +1,17 @@
 
 .cartasRopa{
    display: flex;
-   justify-content: center;
-   display: inline-block;
+   flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     
     .card{
-        display: inline-block;
-        justify-content: center;
         @include contenedor;
         background-color: $oscuro;
         padding: 10px;
         margin: 10px;
+        width: 45%;
+        display: flex;
     }
 }

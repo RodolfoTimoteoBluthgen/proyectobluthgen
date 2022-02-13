@@ -60,11 +60,11 @@
 
 .cartasRopa {
   display: flex;
+  flex-direction: row;
+  align-content: center;
   justify-content: center;
-  display: inline-block; }
+  align-items: center; }
   .cartasRopa .card {
-    display: inline-block;
-    justify-content: center;
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
@@ -72,4 +72,6 @@
     font-family: Copperplate;
     background-color: #b2967dff;
     padding: 10px;
-    margin: 10px; }
+    margin: 10px;
+    width: 45%;
+    display: flex; }
