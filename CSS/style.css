@@ -61,6 +61,7 @@
 .cartasRopa {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   align-items: center; }
@@ -74,4 +75,14 @@
     padding: 10px;
     margin: 10px;
     width: 45%;
+    height: auto;
     display: flex; }
+
+@media (max-width: 425px) {
+  .cartasRopa {
+    flex-direction: column; } }
+
+.fondoAccordion {
+  background-color: #e6beaeff; }
+  .fondoAccordion .accordion-item {
+    background-color: #e6beaeff; }
