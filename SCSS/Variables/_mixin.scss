@@ -2,7 +2,12 @@
 @mixin contenedor {max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: $rosafuerte;
+    background-color: $oscuro;
+    color: white;
     font-family: Copperplate;
+    
+}
+@mixin fuente {
+    font-family: Cooperplate;
     
 }

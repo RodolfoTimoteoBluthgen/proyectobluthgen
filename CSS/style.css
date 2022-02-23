@@ -5,44 +5,44 @@
 
 /* CSS HEX */
 .navbarIndex {
-  background-color: #ecf8f8ff;
+  background-color: #f4e7d5;
   font-family: Copperplate;
   font-weight: 400; }
 
 .body {
-  background-color: #e7d8c9ff; }
+  background-color: #84b09b; }
 
 .carta1 {
-  background-color: #e7d8c9ff; }
+  background-color: #f4e7d5; }
   .carta1 div {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #e6beaeff;
+    background-color: #27242a;
+    color: white;
     font-family: Copperplate; }
 
 .carta2 {
-  background-color: #e7d8c9ff; }
+  background-color: #f4e7d5; }
   .carta2 div {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #e6beaeff;
+    background-color: #27242a;
+    color: white;
     font-family: Copperplate; }
 
-.tituloIndex h1 {
-  max-width: 600px;
-  text-align: center;
-  margin: 0 auto;
-  background-color: #e6beaeff;
-  font-family: Copperplate;
-  padding: 10px;
-  margin: 20px;
-  font-size: large;
-  border: black solid 1px; }
+.card {
+  font-family: Cooperplate;
+  background-color: #27242a;
+  color: #f4e7d5; }
+
+.imagenIndex {
+  border-radius: 10%;
+  padding: 10px; }
 
 .pieRedes {
-  background-color: #b2967dff; }
+  background-color: #27242a; }
   .pieRedes ul {
     display: flex;
     justify-content: center; }
@@ -51,7 +51,7 @@
       list-style-type: none;
       padding: 20px; }
       .pieRedes ul li a {
-        color: black;
+        color: #e3b155;
         size: 30px; }
         .pieRedes ul li a :hover {
           transform: scale(2);
@@ -69,9 +69,10 @@
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #e6beaeff;
+    background-color: #27242a;
+    color: white;
     font-family: Copperplate;
-    background-color: #b2967dff;
+    background-color: #27242a;
     padding: 10px;
     margin: 10px;
     width: 45%;
@@ -83,6 +84,6 @@
     flex-direction: column; } }
 
 .fondoAccordion {
-  background-color: #e6beaeff; }
+  background-color: #ecd4c6; }
   .fondoAccordion .accordion-item {
-    background-color: #e6beaeff; }
+    background-color: #ecd4c6; }
