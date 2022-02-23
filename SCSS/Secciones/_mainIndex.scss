@@ -2,4 +2,13 @@
 .imagenIndex{
     border-radius: 10%;
     padding: 10px;
+    background-color: $oro;
+}
+.btn{
+    background-color: $oscuro;
+    color: $oro;
+    @include fuente;
+    font-size: x-large;
+    margin: 20px;
+    left: 50%;
 }

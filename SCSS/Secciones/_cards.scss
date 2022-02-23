@@ -1,15 +1,20 @@
 //Index
 
+    
 .carta1{
     background-color: $claro;
     div{
         @include contenedor;
+        border-radius: 30%;
+        margin: 10px;
     }
 }
 .carta2{
     background-color: $claro;
     div{
         @include contenedor;
+        border-radius: 30%;
+        margin: 10px;
     }
 }
 

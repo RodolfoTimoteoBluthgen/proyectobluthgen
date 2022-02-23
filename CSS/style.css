@@ -10,7 +10,7 @@
   font-weight: 400; }
 
 .body {
-  background-color: #84b09b; }
+  background-color: #e3b155; }
 
 .carta1 {
   background-color: #f4e7d5; }
@@ -20,7 +20,9 @@
     margin: 0 auto;
     background-color: #27242a;
     color: white;
-    font-family: Copperplate; }
+    font-family: Copperplate;
+    border-radius: 30%;
+    margin: 10px; }
 
 .carta2 {
   background-color: #f4e7d5; }
@@ -30,7 +32,9 @@
     margin: 0 auto;
     background-color: #27242a;
     color: white;
-    font-family: Copperplate; }
+    font-family: Copperplate;
+    border-radius: 30%;
+    margin: 10px; }
 
 .card {
   font-family: Cooperplate;
@@ -39,7 +43,16 @@
 
 .imagenIndex {
   border-radius: 10%;
-  padding: 10px; }
+  padding: 10px;
+  background-color: #e3b155; }
+
+.btn {
+  background-color: #27242a;
+  color: #e3b155;
+  font-family: Cooperplate;
+  font-size: x-large;
+  margin: 20px;
+  left: 50%; }
 
 .pieRedes {
   background-color: #27242a; }
