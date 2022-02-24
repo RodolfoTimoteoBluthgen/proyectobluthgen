@@ -1,5 +1,24 @@
+//Titulos Main Ropa
+.mainTitulo{
+    @include contenedor;
+    color: $oscuro;
+    padding: 10px;
+    margin: 10px;
+}
+.textoRopa{
+    @include fuente;
+    color: $oscuro;
+    padding: 10px;
+    margin: 10px;
+}
+  
+
+//Flexbox Galeria
+
+
 
 .cartasRopa{
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

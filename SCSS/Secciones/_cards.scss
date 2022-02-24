@@ -1,19 +1,21 @@
 //Index
-
-    
+ 
+.row{
+    background-color: $claro;
+}
 .carta1{
     background-color: $claro;
-    div{
+    .card-body{
         @include contenedor;
-        border-radius: 30%;
+        background-color: $oscuro;
         margin: 10px;
     }
 }
 .carta2{
     background-color: $claro;
-    div{
+    .card-body{
         @include contenedor;
-        border-radius: 30%;
+        background-color: $oscuro;
         margin: 10px;
     }
 }

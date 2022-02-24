@@ -10,30 +10,38 @@
   font-weight: 400; }
 
 .body {
-  background-color: #e3b155; }
+  background-color: #f4e7d5; }
+
+.navbarFoto {
+  background-color: #f4e7d5;
+  font-family: Copperplate;
+  font-weight: 400; }
+
+.row {
+  background-color: #f4e7d5; }
 
 .carta1 {
   background-color: #f4e7d5; }
-  .carta1 div {
+  .carta1 .card-body {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #27242a;
+    background-color: #f4e7d5;
     color: white;
     font-family: Copperplate;
-    border-radius: 30%;
+    background-color: #27242a;
     margin: 10px; }
 
 .carta2 {
   background-color: #f4e7d5; }
-  .carta2 div {
+  .carta2 .card-body {
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #27242a;
+    background-color: #f4e7d5;
     color: white;
     font-family: Copperplate;
-    border-radius: 30%;
+    background-color: #27242a;
     margin: 10px; }
 
 .card {
@@ -42,17 +50,11 @@
   color: #f4e7d5; }
 
 .imagenIndex {
-  border-radius: 10%;
   padding: 10px;
-  background-color: #e3b155; }
+  background-color: #f4e7d5; }
 
-.btn {
-  background-color: #27242a;
-  color: #e3b155;
-  font-family: Cooperplate;
-  font-size: x-large;
-  margin: 20px;
-  left: 50%; }
+.botonInicio {
+  justify-content: center; }
 
 .pieRedes {
   background-color: #27242a; }
@@ -64,12 +66,29 @@
       list-style-type: none;
       padding: 20px; }
       .pieRedes ul li a {
-        color: #e3b155;
+        color: #f4e7d5;
         size: 30px; }
         .pieRedes ul li a :hover {
           transform: scale(2);
           transition-property: all;
           transition-duration: 2s; }
+
+.mainTitulo {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f4e7d5;
+  color: white;
+  font-family: Copperplate;
+  color: #27242a;
+  padding: 10px;
+  margin: 10px; }
+
+.textoRopa {
+  font-family: Cooperplate;
+  color: #27242a;
+  padding: 10px;
+  margin: 10px; }
 
 .cartasRopa {
   display: flex;
@@ -82,7 +101,7 @@
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    background-color: #27242a;
+    background-color: #f4e7d5;
     color: white;
     font-family: Copperplate;
     background-color: #27242a;
