@@ -41,57 +41,90 @@
           </div>
         </div>
       </nav>
+      <hr width="100%" black>
 
       <!-- MAIN GALERIA -->
-
-      <div class="tituloIndex">
-        <h1>
-          Novedades dentro del mundo de la moda sostenible
-        </h1>
-      </div>
+      <h1 class="mainTitulo">Novedades e informacion sobre la Moda Sostenible.</h1>
 
 
-      <!-- Accordion -->
-      <div class="accordion fondoAccordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Que es moda sustentable?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              La moda sustentable es parte de la tendencia más amplia del diseño que apunta a crear un producto elaborado considerando el impacto ambiental y social que puede tener en todo su ciclo de vida, en la que se incluye la huella de carbono que deja.
-            </div>
-          </div>
+<!-- ACA USO GRID -->
+      <div class="containerMainFotos">
+
+        <div class="fondoPlaya">
+          <img src="../Imagenes/playa.jpg" alt="playa">
+
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
+
+        <div class="informacion">
+          <img class="imagenNovedades" src="../Imagenes/recicloPlastico.jpg" alt="junta de plastico">
+          <div>
+            <h2>¿Por qué elegir OS?</h2>
+            <ul>
+            <li><h4> Destinamos un % de tu compra a acciones sociales.</h4> </li>
+            <li><h4> Podes formar parte de estas acciones con nostros.</h4></li>
+            <li> <h4> Si el producto no te gusta lo podes devolver o cambiar.</h4></li>
+            <li><h4> Si el producto no te gusta lo podes devolver o cambiar.</h4></li></ul>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
+
         </div>
       </div>
 
+<!-- ACA traigo un ACCORDION c/INFO -->
+      <div class="accordion">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Qué es la moda sostenible?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>La moda sostenible es una alternativa saludable a la moda convencional</strong> 
+              , ya que aúna cuidado medioambiental, respeto de los derechos humanos de trabajadores y trabajadoras textiles, y protección de la salud al elaborarse con materiales naturales libres de componentes tóxicos.
+              </div>
+            </div>
+          </div>
 
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Cuáles son los beneficios de la moda sostenible?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Se puede reducir el impacto ambiental, que actualmente es del 38 % por parte de esta industria.</strong>
+                        Se van a ver beneficiados las condiciones laborales de las personas que pertenecen a este sector. Actualmente son más de 75 millones de empleos a lo largo de su cadena de valor.   
+                        Va a potenciar la economía circular. ¿De qué se trata? Una forma de economía que busca aprovechar al máximo los recursos y disminuir el desperdicio, sin dejar de generar ganancias.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Cómo identificar las marcas de moda sostenible?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul>
+                <li> ✅ No suelen producir en masa, sino que se concentran en la producción de lotes pequeños</li>
+                <li> ✅ Sus productos no suelen ser tan económicos, pues existe un pago justo de materia prima y salarios.</li>
+                <li> ✅ las colecciones de moda sostenible usualmente tienen más tiempo de presencia en el mercado para permitir la rotación de la mercancía.</li>
+                <li> ✅ Fomentan el rescate y la apropiación de técnicas culturales en la producción textil.</li>
+                <li> ✅ Incluyen procesos de innovación, como la impresión 3D, y la reutilización de plásticos en la producción de prendas.</li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+      </div>
 
 
 

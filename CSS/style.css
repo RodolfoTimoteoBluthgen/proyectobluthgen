@@ -53,8 +53,17 @@
   padding: 10px;
   background-color: #f4e7d5; }
 
+.imagenSustentable1 {
+  margin: 20px; }
+
+.imagenSustentable2 {
+  margin: 20px;
+  width: 50%; }
+
 .botonInicio {
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .pieRedes {
   background-color: #27242a; }
@@ -119,7 +128,66 @@
   .cartasRopa {
     flex-direction: column; } }
 
-.fondoAccordion {
-  background-color: #ecd4c6; }
-  .fondoAccordion .accordion-item {
-    background-color: #ecd4c6; }
+.containerMainFotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "fondoPlaya fondoPlaya informacion informacion" "fondoPlaya fondoPlaya informacion informacion"; }
+
+.fondoPlaya {
+  grid-area: fondoPlaya; }
+  .fondoPlaya img {
+    width: 100%;
+    border: 1px #27242a;
+    padding: 5px; }
+
+.informacion {
+  grid-area: informacion;
+  background-color: #f4e7d5;
+  font-family: Cooperplate; }
+  .informacion .imagenNovedades {
+    width: 100%; }
+  .informacion h2 {
+    font-family: Cooperplate;
+    padding: 5px;
+    margin: 5px;
+    font-size: x-large;
+    padding-top: 5%;
+    padding-left: 10%; }
+  .informacion h4 {
+    font-family: Cooperplate;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+    padding-top: 5%; }
+
+.accordion {
+  background-color: #f4e7d5;
+  padding: 10px; }
+  .accordion .accordion-item {
+    background: #84b09b; }
+
+.tituloContacto {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f4e7d5;
+  color: white;
+  font-family: Copperplate;
+  color: #27242a;
+  padding: 10px;
+  margin: 10px; }
+
+.textoContacto {
+  font-family: Cooperplate;
+  font-size: medium;
+  font-weight: lighter;
+  color: #27242a;
+  padding: 10px;
+  margin: 10px; }
+
+.formContacto form {
+  padding: 10px;
+  margin: 10px; }

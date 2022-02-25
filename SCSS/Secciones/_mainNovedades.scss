@@ -1,10 +1,62 @@
 
-.fondoAccordion{
-    background-color: $pink;
 
-    .accordion-item{
-        background-color: $pink;
-
-        
+//Grid
+.containerMainFotos {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "fondoPlaya fondoPlaya informacion informacion"
+      "fondoPlaya fondoPlaya informacion informacion"
+      }
+  
+  .fondoPlaya { grid-area: fondoPlaya;
+    img{
+        width: 100%;
+        border: 1px $oscuro;
+        padding: 5px;
     }
 }
+  
+  .informacion { grid-area: informacion;
+    background-color: $claro;
+        .imagenNovedades{
+            width: 100%;
+        }
+   
+   
+    @include fuente;
+
+   
+
+    h2{
+        @include fuente;
+        padding: 5px;
+        margin: 5px;
+        font-size: x-large;
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    h4{
+        @include fuente;
+        padding: 5px;
+        margin: 5px;
+        font-size: large;
+        padding-top: 5%;
+    }
+
+}
+
+//Acordion
+
+.accordion{
+    background-color: $claro;
+    padding: 10px;
+        .accordion-item{
+            background: $verde;
+        }
+}
+
+  
+  

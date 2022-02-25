@@ -1,0 +1,24 @@
+
+.tituloContacto{
+    @include contenedor;
+    color: $oscuro;
+    padding: 10px;
+    margin: 10px;
+}
+
+.textoContacto{
+    @include fuente;
+    font-size: medium;
+    font-weight: lighter;
+    color: $oscuro;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formContacto{
+    form{
+        
+        padding: 10px;
+        margin: 10px;
+    }
+}
