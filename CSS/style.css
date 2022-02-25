@@ -107,9 +107,13 @@
     background-color: #27242a;
     padding: 10px;
     margin: 10px;
-    width: 45%;
+    width: 40%;
     height: auto;
     display: flex; }
+    .cartasRopa .card img:hover {
+      transform: scale(1.05);
+      transition-property: all;
+      transition-duration: 2s; }
 
 @media (max-width: 425px) {
   .cartasRopa {

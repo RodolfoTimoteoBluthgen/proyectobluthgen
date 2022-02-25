@@ -31,9 +31,16 @@
         background-color: $oscuro;
         padding: 10px;
         margin: 10px;
-        width: 45%;
+        width: 40%;
         height: auto;
         display: flex;
+
+        img:hover{
+            transform: scale(1.05);
+            transition-property: all;
+            transition-duration: 2s;
+        }
+
     }
 }
 
