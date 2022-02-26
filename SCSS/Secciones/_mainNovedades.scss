@@ -1,5 +1,12 @@
 
 
+.tituloNovedades{
+    @include contenedor;
+    color: $oscuro;
+
+
+}
+
 //Grid
 .containerMainFotos {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -23,6 +30,14 @@
     background-color: $claro;
         .imagenNovedades{
             width: 100%;
+        }
+        .bulletsNovedades{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
         }
    
    

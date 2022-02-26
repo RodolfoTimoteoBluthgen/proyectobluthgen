@@ -5,6 +5,9 @@
 }
 .carta1{
     background-color: $claro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .card-body{
         @include contenedor;
         background-color: $oscuro;
@@ -14,6 +17,9 @@
 }
 .carta2{
     background-color: $claro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .card-body{
         @include contenedor;
         background-color: $oscuro;

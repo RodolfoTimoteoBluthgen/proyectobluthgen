@@ -21,7 +21,10 @@
   background-color: #f4e7d5; }
 
 .carta1 {
-  background-color: #f4e7d5; }
+  background-color: #f4e7d5;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .carta1 .card-body {
     max-width: 600px;
     text-align: center;
@@ -33,7 +36,10 @@
     margin: 10px; }
 
 .carta2 {
-  background-color: #f4e7d5; }
+  background-color: #f4e7d5;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
   .carta2 .card-body {
     max-width: 600px;
     text-align: center;
@@ -128,6 +134,15 @@
   .cartasRopa {
     flex-direction: column; } }
 
+.tituloNovedades {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f4e7d5;
+  color: white;
+  font-family: Copperplate;
+  color: #27242a; }
+
 .containerMainFotos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -149,6 +164,13 @@
   font-family: Cooperplate; }
   .informacion .imagenNovedades {
     width: 100%; }
+  .informacion .bulletsNovedades {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; }
   .informacion h2 {
     font-family: Cooperplate;
     padding: 5px;
